@@ -5,8 +5,8 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Iam creating pipeline build from SCM'
-                sh lscpu
-              sh df -h
+                echo 'Iam tejaswi'
+            
             }
         }
     }
