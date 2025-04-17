@@ -16,6 +16,12 @@ pipeline {
             
             }
         }
-
+ stage('third stage') {
+            steps {
+                echo 'Iam creating third stage build from SCM'
+                echo 'Iam rame'
+            
+            }
+        }
     }
 }
