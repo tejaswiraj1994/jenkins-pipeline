@@ -9,5 +9,13 @@ pipeline {
             
             }
         }
+      stage('second stage') {
+            steps {
+                echo 'Iam creating second stage build from SCM'
+                echo 'Iam tejaswiraj'
+            
+            }
+        }
+
     }
 }
